@@ -4,8 +4,8 @@
 header('Access-Control-Allow-Origin: *');
 header('Content-Type: application/json');
 
-include_once('../../config/Databse.php');
-include_once('../../models/Post.php');
+require_once $_SERVER['DOCUMENT_ROOT'] . '/config/Database.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/models/Post.php';
 
 // Instantiate dbase
 $database = new Database();
@@ -29,7 +29,7 @@ if( $num > 0 ){
 			'id'			=> $id,
 			'title'			=> $title,
 			'body'			=> html_entity_decode($body),
-			'author'		=> $author
+			'author'		=> $author,
 			'category_id'	=> $category_id,
 			'category_name'	=> $category_name,
 			'created_at'	=> $created_at

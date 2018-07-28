@@ -1,0 +1,29 @@
+<?php
+
+class Database {
+	// DB params
+	private $host = 'localhost';
+
+	private $db_name = 'myblog';
+
+	private $username = 'root';
+
+	private $password = '';
+
+	private $conn;
+
+	// DB connect
+	public function connect()
+	{
+		$this->conn = null;
+
+		try {
+			$this->conn = new PDO("mysql:dbname={$db_name};host={$host}", $username, $password);
+			$this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+		} catch(PDOException $e) {
+			echo 'Connection error: ' . $e->getMessage();
+		}
+
+		return $this->conn;
+	}
+}

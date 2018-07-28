@@ -1,35 +1,36 @@
 <?php
 
-class Post{
-	// DB
-	private $conn;
+class Post
+{
+    // DB
+    private $conn;
 
-	private $table = 'posts';
+    private $table = 'posts';
 
-	//Post properties
-	public $id;
-	
-	public $category_id;
+    //Post properties
+    public $id;
 
-	public $category_name;
+    public $category_id;
 
-	public $title;
+    public $category_name;
 
-	public $body;
+    public $title;
 
-	public $author;
+    public $body;
 
-	public $created_at;
+    public $author;
 
-	// dbase connect
-	public function __construct($db)
-	{
-		$this->conn = $db;
-	}
+    public $created_at;
 
-	// get posts
-	public function read()
-	{
+    // dbase connect
+    public function __construct($db)
+    {
+        $this->conn = $db;
+    }
+
+    // get posts
+    public function read()
+    {
 		$query = 'SELECT
 					c.name as category_name,
 					p.id,
@@ -92,5 +93,4 @@ class Post{
 		$this->category_name = $row['category_name'];
 		$this->created_at = $row['created_at'];
 	}
-
 }

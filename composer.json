@@ -1,0 +1,7 @@
+{
+    "name": "itachi/php_restful_api",
+    "require": {},
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.3"
+    }
+}

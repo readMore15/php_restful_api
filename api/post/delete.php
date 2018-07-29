@@ -3,7 +3,7 @@
 // Headers
 header('Access-Control-Allow-Origin: *');
 header('Content-Type: application/json');
-header('Access-Control-Allow-Methods: POST');
+header('Access-Control-Allow-Methods: DELETE');
 header('Access-Control-Allow-Headers: Access-Control-Allow-Headers, Access-Control-Allow-Methods, Content-Type, Authorization, X-Requested-With');
 
 require_once $_SERVER['DOCUMENT_ROOT'] . '/config/Database.php';
@@ -16,7 +16,14 @@ $db = $database->connect();
 // Instantiate Blog Post object
 $post = new Post($db);
 
-$post->id = isset($_GET['id']) ? $_GET['id'] : die();
+//$post->id = isset($_GET['id']) ? $_GET['id'] : die();
+
+// get raw posted data
+$data = json_decode(file_get_contents("php://input"));
+
+if($data){
+	$post->id = $data->id;
+}
 
 // delete post
 if($post->delete()){

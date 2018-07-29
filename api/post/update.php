@@ -20,22 +20,23 @@ $post = new Post($db);
 $data = json_decode(file_get_contents("php://input"));
 
 if($data){
+	$post->id = $data->id;
 	$post->title = $data->title;
 	$post->body = $data->body;
 	$post->author = $data->author;
 	$post->category_id = $data->category_id;
 }
 
-// create post
-if($post->create()){
+// update post
+if($post->update()){
 	echo json_encode([
 		'status' 	=> 'success',
-		'message'	=> 'Post created.'
+		'message'	=> 'Post updated.'
 	]);
 }
 else{
 	echo json_encode([
 		'status'	=> 'failed',
-		'message'	=> 'Post not created.'
+		'message'	=> 'Post not updated.'
 	]);
 }

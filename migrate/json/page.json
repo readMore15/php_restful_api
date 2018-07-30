@@ -1,0 +1,87 @@
+[
+	{
+	    "Name": "Home",
+	    "Title": "[location_name], [location_state] | [keyword]",
+	    "Description": "Let [location_name] help make your remodeling dreams come true. Our team of experts is committed to one thing: ENHANCING LIVES. IMPROVING HOMES.® Schedule a free consultation at [phone_number] today!"
+  	},
+  	{
+	    "Name": "About",
+	    "Title": "About | [location_name], [location_state]",
+	    "Description": "[location_name] offers one-on-one attention and commitment to providing the highest standard of quality in remodeling. Call us and see why we're the team you can trust to give you the home of your dreams."
+  	},
+  	{
+	    "Name": "Our History",
+	    "Title": "Our History | [location_name], [location_state]",
+	    "Description": "DreamMaker Bath & Kitchen boasts a long tradition of remodeling excellence. Get to know our history and see how we became one of the most trusted names in [area_served_1] kitchen, bathroom and interior remodeling industry today."
+  	},
+  	{
+	    "Name": "Our Process",
+	    "Title": "Our Process | [location_name], [location_state]",
+	    "Description": "[location_name] takes a distinctive, full-service remodeling approach that focuses on serving our clients from design through installation. Learn more about our process and schedule a consultation today!"
+  	},
+  	{
+	    "Name": "Reviews",
+	    "Title": "Reviews | [location_name], [location_state]",
+	    "Description": "DreamMaker Bath & Kitchen values our clients' honest feedback. Visit our Reviews page to see what [area_served_1] locals have to say about our dream team. Request a free consultation at [phone_number] or through our online form today!"
+  	},
+  	{
+	    "Name": "Case Studies",
+	    "Title": "Case Studies | [location_name], [location_state]",
+	    "Description": "DreamMaker Bath & Kitchen is committed to meeting your specific design needs, while communicating consistently throughout the entire process. Check out our [area_served_1] case studies to see the kind of results our team can deliver."
+  	},
+  	{
+	    "Name": "Our Team",
+	    "Title": "Our Team | [location_name], [location_state]",
+	    "Description": "At [location_name], we are committed to one goal: ENHANCING LIVES. IMPROVING HOMES.® Learn about the team of talented people who make all this possible, and start planning your dream home with us today!"
+  	},
+  	{
+	    "Name": "Special Offers",
+	    "Title": "Special Offers | [location_name], [location_state]",
+	    "Description": "Let DreamMaker Bath & Kitchen help make your remodeling dreams come true. Watch this space for news of our ongoing specials in [location_city], [location_state] and the nearby areas, and use our online form to schedule a free consultation today!"
+  	},
+  	{
+	    "Name": "Events",
+	    "Title": "Events | [location_name], [location_state]",
+	    "Description": "We've got exciting things in store for our [area_served_1] customers! Visit our website for details on past and upcoming events in [location_city], [location_state] and the nearby areas, or give DreamMaker Bath & Kitchen a call at [phone_number]."
+  	},
+  	{
+	    "Name": "Code of Values",
+	    "Title": "Code of Values | [location_name], [location_state]",
+	    "Description": "[location_name] believes that if we treat people with respect and integrity, success will follow. Our Code of Values™ is central to who we are and what we do in business and in life. Learn more today."
+  	},
+  	{
+	    "Name": "Services",
+	    "Title": "Services | [location_name], [location_state]",
+	    "Description": "[location_name] is committed to providing economical solutions for your remodeling needs. We're experienced. We're reliable. We're honest. And we're anxious to get started! Call [phone_number] today!"
+  	},
+  	{
+	    "Name": "Galleries",
+	    "Title": "Galleries | [location_name], [location_state]",
+	    "Description": "Check out our project galleries to see what the dream team at [location_name] is capable of. Like what you see? Schedule a free showroom consultation at [phone_number] or through our request form today!"
+  	},
+  	{
+	    "Name": "Directions",
+	    "Title": "Directions | [location_name], [location_state]",
+	    "Description": "[location_name] is located at [address]. Visit our website to get directions to our headquarters. For inquiries, call [phone_number] or reach us through our contact form."
+  	},
+  	{
+	    "Name": "Financing Options",
+	    "Title": "Financing Options | [location_name], [location_state]",
+	    "Description": "DreamMaker Bath & Kitchen believes in making it convenient for residential and commercial clients to afford our remodeling services. Call [phone_number] today to ask us about the financing options available to [area_served_1] residents."
+  	},
+  	{
+	    "Name": "Contact Us",
+	    "Title": "Contact Us | [location_name], [location_state]",
+	    "Description": "Contact DreamMaker Bath & Kitchen at [phone_number] or fill out the form on this page to ask for assistance with your next remodeling project. We also offer free, no-obligation consultations at our [area_served_1] showroom. See you there!"
+  	},
+  	{
+	    "Name": "Sitemap",
+	    "Title": "Sitemap | [location_name], [location_state]",
+	    "Description": "Explore our website to learn all about DreamMaker Bath & Kitchen and the services we offer our [area_served_1] customers. Our showroom is located in [location_city], [location_state]. Contact us through our online form or by calling [phone_number]."
+  	},
+  	{
+	    "Name": "Privacy Policy",
+	    "Title": "Privacy Policy | [location_name], [location_state]",
+	    "Description": "[location_name] respects your online privacy. Visit this page to learn about our privacy practices and how we collect, use and share your information. For more inquiries, give us a call at [phone_number]."
+  	}
+]

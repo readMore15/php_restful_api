@@ -1,0 +1,42 @@
+[
+	{
+	    "Name": "Traditional Kitchens",
+	    "Title": "Traditional Kitchen Gallery | [location_name], [location_state]",
+	    "Description": "Traditional kitchens bring the best of the classic look to your home. This style is all about balance and comfort in the familiar. Check out our gallery and call [location_name] for a consultation today!"
+  	},
+  	{
+	    "Name": "Transitional Kitchens",
+	    "Title": "Transitional Kitchen Gallery | [location_name], [location_state]",
+	    "Description": "Transitional kitchens offer a blend of traditional charm and contemporary chic. It's all about balance, flexibility and harmony. Visit our gallery and call [location_name] to request a consultation today!"
+  	},
+  	{
+	    "Name": "Contemporary Kitchens",
+	    "Title": "Contemporary Kitchen Gallery | [location_name], [location_state]",
+	    "Description": "Contemporary kitchens embody the \"less is more\" philosophy of design. This style puts a strong emphasis on line and form. Explore our gallery and call [location_name] to schedule a consultation today!"
+  	},
+  	{
+	    "Name": "Standard Baths",
+	    "Title": "Standard Bath Gallery | [location_name], [location_state]",
+	    "Description": "Whatever your style or budget, [location_name] can design the perfect bath to fit the needs of your family and guests. Start your project right with a free design consultation—call [phone_number] today!"
+  	},
+  	{
+	    "Name": "Master Baths",
+	    "Title": "Master Bath Gallery | [location_name], [location_state]",
+	    "Description": "Get inspired by our master bath gallery and let [location_name] take your space from inspiration to design, then reality. Use our online form to request a free design consultation or call [phone_number]."
+  	},
+  	{
+	    "Name": "Interior Remodeling",
+	    "Title": "Interior Remodeling Gallery | [location_name], [location_state]",
+	    "Description": "Explore our interior remodeling gallery to see what's possible for the rest of your house when you work with our dream team. Call [location_name] at [phone_number] to schedule a free consultation today!"
+  	},
+  	{
+	    "Name": "Living in Place",
+	    "Title": "Living in Place Gallery | [location_name], [location_state]",
+	    "Description": "Visit our gallery to see how [location_name] can help you enjoy your home through all seasons of life or welcome guests with special mobility needs. Request a free consultation via our online form today!"
+  	},
+  	{
+	    "Name": "Cabinet Refacing",
+	    "Title": "Cabinet Refacing Gallery | [location_name], [location_state]",
+	    "Description": "Take a look at how [location_name] can revamp your space conveniently and cost-effectively through cabinet refacing. Use our online form to request a free consultation or call [phone_number] today."
+  	}
+]

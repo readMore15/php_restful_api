@@ -1,0 +1,37 @@
+[
+	{
+	    "Name": "Kitchen Remodeling",
+	    "Title": "Kitchen Remodeling | [location_name], [location_state]",
+	    "Description": "[location_name] can turn the kitchen you have into the one you've been dreaming about. Find out how we can give your space the look and functionality you want by scheduling a free consultation today!"
+  	},
+  	{
+	    "Name": "Bathroom Remodeling",
+	    "Title": "Bathroom Remodeling | [location_name], [location_state]",
+	    "Description": "Transform your bathroom into your ideal, tranquil space with [location_name]. We'll help you plan, design and create a new bathroom that fits your lifestyle and budget. Request a consultation today!"
+  	},
+  	{
+	    "Name": "Interior Remodeling",
+	    "Title": "Interior Remodeling | [location_name], [location_state]",
+	    "Description": "DreamMaker Bath & Kitchen is [area_served_1]'s go-to for whole house remodeling. Whichever space you have in mind, our dream team can meet your complete design needs from A to Z. To get started, give us a call at [phone_number]."
+  	},
+  	{
+	    "Name": "Living in Place",
+	    "Title": "Living in Place | [location_name], [location_state]",
+	    "Description": "The design/build team at [location_name] is your partner in creating a safe and independent living environment that fits your lifestyle to a T. Schedule a free consultation through our online form today."
+  	},
+  	{
+	    "Name": "Cabinet Refacing",
+	    "Title": "Cabinet Refacing | [location_name], [location_state]",
+	    "Description": "Enjoy the benefits of brand-new cabinets, without the drawn-out installation work and expense that new cabinets entail. Contact [location_name] today to learn more about our cabinet refacing solutions."
+  	},
+  	{
+	    "Name": "General Contracting",
+	    "Title": "General Contracting | [location_name], [location_state]",
+	    "Description": "[location_name] takes a comprehensive approach to general contracting. Our process flows smoothly from design to remodeling. Fill out our online form today to learn more and request a free consultation."
+  	},
+  	{
+	    "Name": "Commercial Remodeling",
+	    "Title": "Commercial Remodeling | [location_name], [location_state]",
+	    "Description": "DreamMaker Bath & Kitchen offers [area_served_1] companies professional, cost-effective commercial remodeling solutions. We provide superior quality and craftsmanship while saving you time and money. Call [phone_number] to learn more."
+	}
+]

@@ -8,11 +8,7 @@ header('Content-Type: application/json');
 header('Access-Control-Allow-Methods: DELETE');
 header('Access-Control-Allow-Headers: Access-Control-Allow-Headers, Access-Control-Allow-Methods, Content-Type, Authorization, X-Requested-With');
 
-require_once $_SERVER['DOCUMENT_ROOT'] . '/config/Database.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/models/Category.php';
-
-$database = new Database();
-$db = $database->connect();
+require_once $_SERVER['DOCUMENT_ROOT'] . '/api/start.php';
 
 // instantiate Category model
 $category = new Category($db);

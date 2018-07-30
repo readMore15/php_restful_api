@@ -8,12 +8,7 @@ header('Content-Type: application/json');
 header('Access-Control-Allow-Methods: POST');
 header('Access-Control-Allow-Headers: Access-Control-Allow-Headers, Access-Control-Allow-Methods, Content-Type, Authorization, X-Requested-With');
 
-require_once $_SERVER['DOCUMENT_ROOT'] . '/config/Database.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/models/Post.php';
-
-// Instantiate dbase
-$database = new Database();
-$db = $database->connect();
+require_once $_SERVER['DOCUMENT_ROOT'] . '/api/start.php';
 
 // Instantiate Blog Post object
 $post = new Post($db);

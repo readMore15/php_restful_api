@@ -1,6 +1,11 @@
 <?php
 
-class Database {
+namespace Restful\Config;
+
+use \PDO;
+
+class Database 
+{
 	// DB params
 	private $host = 'localhost';
 

@@ -1,5 +1,7 @@
 <?php
 
+namespace Restful\Models;
+
 class Category
 {
 	// DB properties

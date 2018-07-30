@@ -1,5 +1,7 @@
 <?php
 
+namespace Restful\Models;
+
 class Post
 {
     // DB
